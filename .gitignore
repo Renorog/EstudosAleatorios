@@ -1,2 +1,6 @@
 .vs
 .git
+bin/
+obj/
+MultiplicandoMatrizes/MultiplicandoMatrizes/bin/
+MultiplicandoMatrizes/MultiplicandoMatrizes/obj/
