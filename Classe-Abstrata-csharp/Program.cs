@@ -1,6 +1,5 @@
 ﻿using Classe_Abstrata_csharp.Models;
 
-Corrente c = new Corrente();
-
-c.Creditar(500);
-c.ExibirSaldo();
+Pessoa p1 = new Pessoa("Renor");
+Aluno a1 = new Aluno("Alice");
+a1.Apresentar();
