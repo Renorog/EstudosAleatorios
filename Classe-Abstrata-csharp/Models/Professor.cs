@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Classe_Abstrata_csharp.Models
 {
-    public class Professor : Pessoa
+    public sealed class Professor : Pessoa
     {
 
         public Professor(string nome) : base(nome)
