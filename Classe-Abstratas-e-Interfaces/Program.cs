@@ -1,5 +1,5 @@
 ﻿using Classe_Abstrata_csharp.Models;
+using Classe_Abstrata_csharp.Interfaces;
 
-Pessoa p1 = new Pessoa("Renor");
-Aluno a1 = new Aluno("Alice");
-a1.Apresentar();
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(3, 9));

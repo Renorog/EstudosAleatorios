@@ -5,13 +5,8 @@ using System.Threading.Tasks;
 
 namespace Classe_Abstrata_csharp.Models
 {
-    public class Diretor : Professor
+    public class Computador 
     {
-
-           public override void Apresentar()
-        {
-            Console.WriteLine("Diretor");
-        }
         
     }
 }
