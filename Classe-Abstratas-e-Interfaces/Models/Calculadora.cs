@@ -20,10 +20,10 @@ namespace Classe_Abstrata_csharp.Models
         {
             return num1 * num2;
         }
-         public int Dividir(int num1, int num2)
+      /*   public int Dividir(int num1, int num2)
         {
             return num1 / num2;
-        }
+        }  */
 
         public int Somar(int num1, int num2, int num3)
         {
