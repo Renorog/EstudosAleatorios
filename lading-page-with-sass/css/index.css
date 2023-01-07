@@ -1,0 +1,79 @@
+header {
+  color: #fff;
+  background-color: #00000040;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px; }
+  header h1 {
+    font-size: 36px;
+    font-weight: bold; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px; }
+  main .text {
+    color: #fff;
+    background-color: #00000040;
+    max-height: 300px;
+    max-width: 550px;
+    padding: 40px; }
+    main .text p {
+      margin-bottom: 20px;
+      font-size: 20px;
+      word-wrap: break-word; }
+  main .box-form {
+    color: #fff;
+    padding: 40px;
+    background-color: #00000040;
+    height: 460px;
+    width: 405px; }
+    main .box-form h2 {
+      font-size: 24px;
+      font-weight: bold; }
+    main .box-form form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px; }
+      main .box-form form input {
+        background-color: #ddd;
+        height: 34px;
+        font-weight: 800;
+        outline: none;
+        border: none;
+        margin: 14px 0;
+        padding: 10px; }
+      main .box-form form button {
+        height: 40px;
+        border: none;
+        margin-top: 10px;
+        font-size: 20px;
+        outline: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+html {
+  min-height: 100%; }
+  html body {
+    background-image: url("/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 40px; }
+
+@media (max-width: 1040px) {
+  main {
+    flex-direction: column; }
+    main .text {
+      margin: 0 auto;
+      margin-bottom: 40px; }
+    main .box-form {
+      margin: 0 auto; } }
+
+/*# sourceMappingURL=index.css.map */

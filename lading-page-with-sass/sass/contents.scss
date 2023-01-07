@@ -1,0 +1,52 @@
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:50px;
+    .text{
+        color:$font-color;
+        background-color: $background;
+        max-height: 300px;
+        max-width:550px;
+        padding:40px;
+            p{
+                margin-bottom:20px;
+                font-size:$font-size-text;
+                word-wrap:break-word;
+            }
+    }
+    .box-form{
+        color: $font-color;
+        padding:40px;
+        background-color: $background;
+        height:460px;
+        width:405px;
+        h2{
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            margin-top:40px;
+            input{
+                background-color: #ddd;
+                height:34px;
+                font-weight: 800;
+                outline:none;
+                border:none;
+                margin: 14px 0;
+                padding:10px;
+            }
+            button{
+                height:40px;
+                border:none;
+                margin-top: 10px;
+                font-size: 20px;
+                outline: none;
+            }
+        }
+    }
+    
+}

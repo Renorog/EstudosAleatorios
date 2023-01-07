@@ -1,0 +1,12 @@
+header{
+    color:$font-color;
+    background-color: $background;
+    height:80px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    h1{
+        font-size: 36px;
+        font-weight: bold;
+    }
+}

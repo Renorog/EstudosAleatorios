@@ -1,0 +1,33 @@
+@import 'sass/variables';
+@import 'sass/header';
+@import 'sass/contents';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    min-height:100%;
+    body{
+        background-image: url("/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100%;
+        padding:40px;
+    }
+}
+
+@media(max-width: 1040px) {
+    main {
+        flex-direction: column;
+        .text {
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+            .box-form {
+               margin: 0 auto; 
+            }
+    }
+}
