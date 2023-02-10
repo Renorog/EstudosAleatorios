@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Super Calculadora</h1>
+      <div>
+        <label for="btn-num1">Peimeiro número (A)</label>
+        <input
+          id="btn-num1"
+          type="number"
+          class="btn"
+          name="btn-num1"
+          value="3"
+        />
+        <label for="btn-num2">Segundo número (B)</label>
+        <input
+          id="btn-num2"
+          type="number"
+          class="btn"
+          name="btn-num2"
+          value="2"
+        />
+        <button id="btn-calcular" onclick="Calcular()">Calcular</button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="bloco">
+        <div>
+          <p>Soma</p>
+          <p id="resultadoSoma"></p>
+        </div>
+        <div>
+          <p>Subtração A - B</p>
+          <p id="SubAB"></p>
+        </div>
+        <div>
+          <p>Subtração B - A</p>
+          <p id="SubBA"></p>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div>
+          <p>Multiplicação</p>
+          <p id="Multi"></p>
+        </div>
+        <div>
+          <p>Divisão A / B</p>
+          <p id="DivAB"></p>
+        </div>
+        <div>
+          <p>Divisão B / A</p>
+          <p id="DivBA"></p>
+        </div>
+      </div>
+      <div class="bloco">
+        <div>
+          <p>Potência de A na base B</p>
+          <p id="PotenciaAB"></p>
+        </div>
+        <div>
+          <p>Potência de B na base A</p>
+          <p id="PotenciaBA"></p>
+        </div>
+        <div>
+          <p>Raiz quadrada de A</p>
+          <p id="RaizA"></p>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div>
+          <p>Raiz quadrada de B</p>
+          <p id="RaizB"></p>
+        </div>
+        <div>
+          <p>Fatorial de A</p>
+          <p id="FatorialA"></p>
+        </div>
+        <div>
+          <p>Fatorial de B</p>
+          <p id="FatorialB"></p>
+        </div>
+      </div>
+      <div class="bloco">
+        <div>
+          <p>Porcentagem de A em relação a B</p>
+          <p id="PorcentA"></p>
+        </div>
+        <div>
+          <p>Porcentagem de B em relação a A</p>
+          <p id="PorcentB"></p>
+        </div>
+        <div>
+          <p>Média</p>
+          <p id="Media"></p>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
